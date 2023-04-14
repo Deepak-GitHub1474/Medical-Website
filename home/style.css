@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+body{
+  background-color: #f7f9ff;
+  overflow: hidden;
+}
+
+/* Navigation Menu */
+
+nav{
+  margin: 30px 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav img{
+  height: 48px;
+}
+
+ul{
+  display: flex;
+  gap: 48px;
+  margin-right: 50px;
+}
+
+a{
+  text-decoration: none;
+  color: #000000;
+}
+
+li{
+  list-style: none;
+  font-weight: bold;
+}
+
+/* Main Hero Section */
+
+.hero{
+  display: flex;
+  margin-top: 95px;
+  gap: 7.3rem;
+}
+
+/* Left side hero section */
+
+.left-hero-section{
+  max-width: 45%;
+  margin-left: 8rem;
+}
+
+img[alt="stethoscope"]{
+  width: 40vw;
+  position: absolute;
+  left: 21rem;
+  top: 6.6rem;
+}
+
+img[alt="topAngle"]{
+  width: 25px;
+}
+
+img[alt="bottomAngle"]{
+  width: 25px;
+  margin-left: 20rem;
+  margin-bottom: 1.3rem;
+}
+
+img[alt="mouse"]{
+  width: 28px;
+  position: relative;
+  top: 1rem;
+  left: 1rem;
+}
+
+.left-hero-section h1{
+  font-size: 65px;
+}
+
+.left-hero-section p{
+  font-size: 18px;
+  color: #8f8f92;
+  margin: 25px 0px;
+}
+
+.left-hero-section button{
+  height: 9vh;
+  width: 20vw;
+  background-color: #28c28c;
+  color: #ffffff;
+  font-size: 25px;
+  border: none;
+  border-radius: 50px;
+}
+
+/* Right side hero section */
+
+.right-hero-section{
+  margin-bottom: 14rem;
+}
+
+img[alt="greenBox"]{
+  width: 35%;
+  position: absolute;
+  right: 0;
+  bottom: 30px;
+}
+
+img[alt="yellowBox"]{
+  width: 30%;
+  position: absolute;
+  right: 0;
+  bottom: 50px;
+}
+
+img[alt="doctor-img"]{
+  height: 90%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}

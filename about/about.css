@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+body{
+  background-color: #f7f9ff;
+  overflow: hidden;
+}
+
+/* Navigation Menu */
+
+nav{
+  margin: 30px 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav img{
+  height: 48px;
+}
+
+ul{
+  display: flex;
+  gap: 48px;
+  margin-right: 50px;
+}
+
+a{
+  text-decoration: none;
+  color: #000000;
+}
+
+li{
+  list-style: none;
+  font-weight: bold;
+}
+
+/* Main Section */
+
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 600px;
+}
+
+.info{
+  width: 50%;
+  text-align: center;
+}
+
+.main h1{
+  color: #23b989;
+}
+
+.main p{
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 55px;
+}
+
+.cards{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.cards h1{
+  color: #23b989;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.cards h3{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 15px;
+  width: 190px;
+  height: 100px;
+  border-radius: 10px;
+}
