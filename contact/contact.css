@@ -4,43 +4,42 @@
   font-family: "IBM Plex Sans", sans-serif;
 }
 
-body{
+body {
   background-color: #f7f9ff;
   overflow: hidden;
 }
 
 /* Navigation Menu */
 
-nav{
-  margin: 30px 120px;
+nav {
+  padding: 1.4rem 6rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-nav img{
+nav img {
   height: 48px;
 }
 
-ul{
+ul {
   display: flex;
-  gap: 48px;
-  margin-right: 50px;
+  gap: 3rem;
 }
 
-a{
+a {
   text-decoration: none;
   color: #000000;
 }
 
-li{
+li {
   list-style: none;
   font-weight: bold;
 }
 
 /* Form Section */
 
-.main{
+.main {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -54,24 +53,23 @@ li{
   margin-right: auto;
 }
 
-.form{
+.form {
   display: flex;
   flex-direction: column;
   width: 320px;
-  
 }
 
-form h1{
+form h1 {
   text-align: center;
 }
 
 
-label{
+label {
   font-size: 18px;
   font-weight: 500;
 }
 
-#form-btn{
+#form-btn {
   height: 6vh;
   width: 21vw;
   margin-top: 1rem;
@@ -82,16 +80,17 @@ label{
   font-size: 18px;
   font-weight: bold;
   cursor: pointer;
+  margin-bottom: 1rem;
 }
 
-input{
+input {
   border: transparent;
-  height: 20px;
+  height: 25px;
   border-radius: 10px;
   padding: 5px 10px;
 }
 
-textarea{
+textarea {
   border: transparent;
   height: 80px;
   resize: none;
@@ -99,5 +98,15 @@ textarea{
   padding: 5px 10px;
 }
 
+/* Media Query */
 
+@media (min-width: 280px) and (max-width: 768px) {
 
+  nav {
+    padding: 1.4rem 1rem;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  
+}
